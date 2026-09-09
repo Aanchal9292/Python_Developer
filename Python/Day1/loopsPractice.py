@@ -53,13 +53,13 @@
 
 
 # Q8 Palindrome of a Number
-o_num = num = int(input("Enter number : "))
+original_num = num = int(input("Enter number : "))
 rev = 0
 while num>0 :
     rem = num %10 
     rev = rem + rev*10
     num = num// 10
-if rev == o_num:
+if rev == original_num:
     print("Palindrome")
 else :
     print("Not a palindrome")
